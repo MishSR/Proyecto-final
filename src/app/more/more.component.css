@@ -1,0 +1,40 @@
+.options{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #f0f0f0;
+}
+
+h1{
+    font-size: 12px;
+}
+
+p{
+    font-size: 9px;
+    text-align: justify;
+}
+
+.know{
+    font-size: 10px;
+    color: black;
+    font-weight: bold;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #f0f0f0;
+}
+
+.contact{
+    display: block;
+    background-color: black;
+    color: white;
+    padding: 30px;
+}
+
+button{
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #f8f8f8;
+}

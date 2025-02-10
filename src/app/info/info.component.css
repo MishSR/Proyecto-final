@@ -1,0 +1,45 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Contenedor principal con flexbox */
+.info-container {
+    display: flex;
+    justify-content: space-around; /* Distribuye los elementos uniformemente */
+    align-items: center; /* Alinea verticalmente */
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+/* Estilos de cada bloque de información */
+.info-box {
+    text-align: center;
+    max-width: 250px;
+}
+
+/* Títulos */
+h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Párrafos */
+p {
+    font-size: 14px;
+    color: #444;
+    margin: 3px 0;
+}
+
+/* Estilo del título "ESTANCIAS" */
+.section-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+}

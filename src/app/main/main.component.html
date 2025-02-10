@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Texto Estancias</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>ESTANCIAS</h2>
+        <p class="details">MÁS DETALLES</p>
+    </div>
+</body>
+<section class="principal">
+    <div class="menu">
+        <div class="images">
+            <img src="./casa.webp" alt="#" class="portada">
+            <div class="thumbnail-line">
+                <img src="./casa.webp" alt="#" class="thumbnail">
+                <img src="./recamara.webp" alt="#" class="thumbnail">
+                <img src="./sala.webp" alt="#" class="thumbnail">
+            </div>
+        </div>
+        <div class="reservation">
+            <div class="selectors">
+                <!--suma huespedes-->
+                <label for="">Huéspedes</label>
+                <button id="minus">-</button>
+                <span id="count">1</span>
+                <button id="plus">+</button>
+
+                <!--suma noches-->
+                <label for="">Noches</label>
+                <button id="minus">-</button>
+                <span id="count">1</span>
+                <button id="plus">+</button>
+            </div>
+
+            <h3>EXTRAS</h3>
+            <div class="extras">
+                <label><input type="checkbox" class="extra" value="250">Mascota $250 MXN</label>
+                <label><input type="checkbox" class="extra" value="500">Calefacción $500 MXN</label>
+                <label><input type="checkbox" class="extra" value="150">Ruta de montaña $150 MXN</label>
+                <label><input type="checkbox" class="extra" value="200">Senderismo $200 MXN</label>
+                <label><input type="checkbox" class="extra" value="500">Visista a la cascada $500 MXN</label>
+            </div>
+
+            <h3>Total con impuestos: <span id="total">$1500</span>MXN</h3>
+            <button id="reserve">Reservar</button>
+        </div>
+    </div>
+    
+</section>
+</html>
+
+
